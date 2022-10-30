@@ -28,7 +28,7 @@ const questions = [
 
 ];
 
-// Declared variables
+// Declared global variables
 const wrapper = document.getElementById("#wrapper");
 const countdown = document.getElementById("#countdown");
 const startGame = document.getElementById("start");
