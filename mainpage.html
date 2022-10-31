@@ -13,20 +13,20 @@
 <body>
     <header>
         <div class="highscores"><a href="./highscores.html">View Highscores</a></div>
-        <div class="countdown">Time: <span id="countdown">0</span></div>
+        <div class="countdown">Time: <span id="currentTime">0</span></div>
     </header>
     <section class="wrapper">
-        <div class="container" id="container">
+        <div class="container" id="questionsDiv">
             <h1>Coding Quiz Challenge</h1>
             <p>
                 Try to answer the following code-related questions within the time limit.
                 Keep in mind that incorrect answers will penalize your score/time by ten seconds!
             </p>
-            <ul id="choices"></ul>
-            <button id="start">Start Quiz</button>
+            <ul id="choicesOl"></ul>
+            <button id="startTime">Start Quiz</button>
         </div>
     </section>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/questions.js"></script>
 </body>
 
 </html>

@@ -13,14 +13,6 @@ body {
     background-color: #ecf5ff;
 }
 
-h1 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 header {
     padding: 30px 50px;
     display: flex;
@@ -78,3 +70,38 @@ button:hover {
     box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
     transition: transform 1s;
 }
+
+#questionsDiv {
+    margin: 30px;
+}
+
+#createDiv {
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid var(--primary-color);
+}
+
+
+li {
+    background-color: white;
+    color: var(--primary-color);
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 50%;
+    font-size: 18px;
+    border: 1px solid var(--primary-color);
+}
+
+li:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    transition: transform 1s;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid var(--primary-color);
+}
+

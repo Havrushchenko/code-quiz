@@ -14,16 +14,17 @@
 <body>
     <header>
         <div class="highscores"><a href="./mainpage.html">Main Page</a></div>
-        <div class="countdown">Time: <span id="countdown">0</span></div>
+        <div class="countdown">Time: <span id="currentTime">0</span></div>
     </header>
     <section class="wrapper">
-        <div class="container" id="container">
+        <div id="questionsDiv">
             <h1>Highscores</h1>
-            <ul id="highscore"></ul>
-            <button id="goBack">Go Back</button>
+            <ol id="highScore"></ol>
+            <!-- Buttons -->
             <button id="clear" value="reset">Clear Highscore</button>
         </div>
     </section>
+    <script src="./assets/js/highscores.js"></script>
 </body>
 
 </html>
