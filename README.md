@@ -4,8 +4,9 @@ This is a timed code quiz that's made up of multiple-choice questions. This app 
 
 The following animation demonstrates the application functionality:
 
-![Demonstration of the Coding Quiz Challenge.] (./assets/img/code-quiz.gif)
+![Demonstration of the Coding Quiz.](./assets/img/code-quiz.gif)
 
 My app at github repository: https://github.com/Havrushchenko/code-quiz
 
-My app is live at 
+My app is live at github pages: https://havrushchenko.github.io/code-quiz/
+
