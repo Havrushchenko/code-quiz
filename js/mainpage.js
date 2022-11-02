@@ -171,7 +171,7 @@ function allDone() {
             localStorage.setItem("allScores", newScore);
 
             // Swich to final page
-            window.location.replace("./HighScores.html");
+            window.location.replace("./highscores.html");
         }
     });
 }
