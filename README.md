@@ -4,7 +4,7 @@ This is a timed code quiz that's made up of multiple-choice questions. This app 
 
 The following animation demonstrates the application functionality:
 
-![Demonstration of the Coding Quiz Challenge.](./assets/img/code-quiz.gif)
+![Demonstration of the Coding Quiz Challenge.]
 
 My app at github repository: https://github.com/Havrushchenko/code-quiz
 
